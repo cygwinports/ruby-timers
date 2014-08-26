@@ -1,0 +1,14 @@
+inherit rubygem
+
+NAME="ruby-timers"
+VERSION=1.1.0
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby timer library"
+DESCRIPTION="Pure Ruby one-shot and periodic timers"
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_timers_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_timers_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
