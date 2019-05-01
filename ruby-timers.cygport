@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-timers"
-VERSION=4.0.1
+VERSION=4.3.0
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby timer library"
